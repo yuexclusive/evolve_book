@@ -1,0 +1,26 @@
+[book]
+authors = ["Yu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Evolve Boook"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html.fold]
+enable = false
+level = 0
+
+[output.html.playpen]
+editable = true
+editor = "ace"
+
+# [output.html]
+# additional-js = ["mermaid.min.js", "mermaid-init.js"]
+[output.html]
+additional-css = ["ferris.css", "theme/2018-edition.css", "theme/style1.css"]
+additional-js = ["ferris.js", "mermaid.min.js", "mermaid-init.js", "assets/custom3.js"]
+git-repository-url = "https://github.com/yuexclusive/evolve"
